@@ -28,7 +28,7 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 |                                                 | Studying Visual Spatial Attention --- Hermann von Helmholtz_ |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s3.PNG" style="width:400px"> | **Method:** Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br />**Result:** The items in the attended portion could be accurately reported, but not the other ones.<br /><br />**Interpretation:** People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention). |
+| <img src="images/l1s3.PNG" style="width:300px"> | **Method:** Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br />**Result:** The items in the attended portion could be accurately reported, but not the other ones.<br /><br />**Interpretation:** People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention). |
 
 
 
@@ -42,19 +42,19 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 |                                                 | Early Selection Model --- _Broadbent_                        |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s4.PNG" style="width:500px"> | All-or-nothing model. Incoherent with the fact that highly relevant information (such as your name) in an unattended stream still enters consciousness. |
+| <img src="images/l1s4.PNG" style="width:400px"> | All-or-nothing model. Incoherent with the fact that highly relevant information (such as your name) in an unattended stream still enters consciousness. |
 
 <br>
 
 |                                                 | Early Selection Based Attenuation Model --- _Treisman_       |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s5.PNG" style="width:500px"> | Some unattended semantic information makes it to the analysis stage. Though only information that stands out (like your own name) passes through the first filter. |
+| <img src="images/l1s5.PNG" style="width:400px"> | Some unattended semantic information makes it to the analysis stage. Though only information that stands out (like your own name) passes through the first filter. |
 
 <br>
 
 |                                                 | Early, Middle and Late Top-Down Selection                    |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s6.PNG" style="width:500px"> | Allows for early selection based on physical characteristics, but also late selection when semantic processing is needed for selection. It uses top-down control for this approach. |
+| <img src="images/l1s6.PNG" style="width:400px"> | Allows for early selection based on physical characteristics, but also late selection when semantic processing is needed for selection. It uses top-down control for this approach. |
 
 
 
@@ -66,7 +66,7 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 |                                                 |                                                              |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s7.PNG" style="width:500px"> | **Method:** The subject's gaze is fixed on a central point. They're presented with a valid, invalid or neutral, position related cue. <br />The subject has to indicate that the target appeared when it does, regardless of the cue. <br /><br />**Result:** Subjects are faster to respond to validly cued targets than invalidly queued ones, with the response time of neutrally cued targets <br />being in the middle. The effect of the queue lasts from 300 milliseconds to several seconds. |
+| <img src="images/l1s7.PNG" style="width:400px"> | **Method:** The subject's gaze is fixed on a central point. They're presented with a valid, invalid or neutral, position related cue. <br />The subject has to indicate that the target appeared when it does, regardless of the cue. <br /><br />**Result:** Subjects are faster to respond to validly cued targets than invalidly queued ones, with the response time of neutrally cued targets <br />being in the middle. The effect of the queue lasts from 300 milliseconds to several seconds. |
 
 
 
@@ -74,7 +74,7 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 |                                                 |                                                              |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s8.PNG" style="width:500px"> | **Method:** Subjects are presented with a sensory cue (e.g. a flash of light) at a particular location shortly before the target stimulus is presented in either that location or elsewhere. <br /><br />**Result:** Reaction time increases when presented with a valid cue shortly before the target stimulus (green area). When increasing the interval, however, the response time for validly cued targets<br /> decreases. This is due to something known as inhibition of return (after Klein, 2000). |
+| <img src="images/l1s8.PNG" style="width:400px"> | **Method:** Subjects are presented with a sensory cue (e.g. a flash of light) at a particular location shortly before the target stimulus is presented in either that location or elsewhere. <br /><br />**Result:** Reaction time increases when presented with a valid cue shortly before the target stimulus (green area). When increasing the interval, however, the response time for validly cued targets<br /> decreases. This is due to something known as inhibition of return (after Klein, 2000). |
 
 
 
@@ -88,7 +88,7 @@ Cognitive psychologists generally think attention works as in the 3rd model in s
 
    |                                                 |      |
    | ----------------------------------------------- | ---- |
-   | <img src="images/l1s9.PNG" style="width:400px"> |      |
+   | <img src="images/l1s9.PNG" style="width:300px"> |      |
 
 **What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuring behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
 
