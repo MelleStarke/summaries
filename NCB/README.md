@@ -19,20 +19,16 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 **Attention & Arousal**:
 
 -   Arousal describes the global state of the brain. The broadest categorization is the spectrum between being awake or asleep.
-
 -   When asleep, people are very unattentive. But when awake, people can have varying levels of attentiveness.
-
 -   Research shows that people have slower reactions and reduced performance in cognitive tasks when drowsy.
-
 -   Most often, **attention is selectively focused**. Meaning that processing resources are allocated to certain stimuli, while neglecting other stimuli.
-
 -   Lecturer: *"Selective attention assumes a minimum level of arousal, on top of which there is selection that is driven by a certain dimension (e.g. spatial, auditory, etc.)"*
 
 
 
-|                           | Studying Visual Spatial Attention --- _Hermann von Helmholtz_ |
-| ------------------------- | ------------------------------------------------------------ |
-| ![image](images/l1s3.PNG) | **Method:** Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br />**Result:** The items in the attended portion could be accurately reported, but not the other ones.<br /><br />**Interpretation:** People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention). |
+|                                                 | Studying Visual Spatial Attention --- _Hermann von Helmholtz_ |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| <img src="images/l1s3.PNG" style="width:400px"> | **Method:** Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br />**Result:** The items in the attended portion could be accurately reported, but not the other ones.<br /><br />**Interpretation:** People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention). |
 
 
 
@@ -42,17 +38,23 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 **Late selection** states that information is first processed before selection occurs.
 
-|                           | Early Selection Model --- _Broadbent_                        |
-| ------------------------- | ------------------------------------------------------------ |
-| ![image](images/l1s4.PNG) | All-or-nothing model. Incoherent with the fact that highly relevant information (such as your name) in an unattended stream still enters consciousness. |
 
-|                           | Early Selection Based Attenuation Model --- _Treisman_       |
-| ------------------------- | ------------------------------------------------------------ |
-| ![image](images/l1s5.PNG) | Some unattended semantic information makes it to the analysis stage. Though only information that stands out (like your own name) passes through the first filter. |
 
-|                           | Early, Middle and Late Top-Down Selection                    |
-| ------------------------- | ------------------------------------------------------------ |
-| ![image](images/l1s6.PNG) | Allows for early selection based on physical characteristics, but also late selection when semantic processing is needed for selection. It uses top-down control for this approach. |
+|                                                 | Early Selection Model --- _Broadbent_                        |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| <img src="images/l1s4.PNG" style="width:500px"> | All-or-nothing model. Incoherent with the fact that highly relevant information (such as your name) in an unattended stream still enters consciousness. |
+
+<br>
+
+|                                                 | Early Selection Based Attenuation Model --- _Treisman_       |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| <img src="images/l1s5.PNG" style="width:500px"> | Some unattended semantic information makes it to the analysis stage. Though only information that stands out (like your own name) passes through the first filter. |
+
+<br>
+
+|                                                 | Early, Middle and Late Top-Down Selection                    |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| <img src="images/l1s6.PNG" style="width:500px"> | Allows for early selection based on physical characteristics, but also late selection when semantic processing is needed for selection. It uses top-down control for this approach. |
 
 
 
