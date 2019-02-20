@@ -86,10 +86,9 @@ Cognitive psychologists generally think attention works as in the 3rd model in s
 
 2. Determining the brain regions that coordinate these regulations (i.e. the higher-level control regulations), and the mechanisms these regions use.
 
-   
-   
-
-<img src="images/l1s9.PNG" style="width:400px">
+   |                                                 |      |
+   | ----------------------------------------------- | ---- |
+   | <img src="images/l1s9.PNG" style="width:400px"> |      |
 
 **What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuring behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
 
