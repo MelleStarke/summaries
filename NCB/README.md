@@ -64,7 +64,7 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 **Endogenous attention** applies to situations where a subject voluntarily directs their attention towards stimulus, usually by interpreting a cue (such as an arrow). If the cue provides no information (i.e. a neutral cue), there is no change in behaviour.
 
-| f                                               | f                                                            |
+|                                                 |                                                              |
 | ----------------------------------------------- | ------------------------------------------------------------ |
 | <img src="images/l1s7.PNG" style="width:500px"> | **Method:** The subject's gaze is fixed on a central point. They're presented with a valid, invalid or neutral, position related cue. <br />The subject has to indicate that the target appeared when it does, regardless of the cue. <br /><br />**Result:** Subjects are faster to respond to validly cued targets than invalidly queued ones, with the response time of neutrally cued targets <br />being in the middle. The effect of the queue lasts from 300 milliseconds to several seconds. |
 
@@ -72,9 +72,9 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 **Exogenous attention** applies to situations where attention is reflexively directed towards a stimulus. Such as when a loud sound is heard.
 
-| f                                               | f                                                            |
+|                                                 |                                                              |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s8.png" style="width:500px"> | **Method:** Subjects are presented with a sensory cue (e.g. a flash of light) at a particular location shortly before the target stimulus is presented in either that location or elsewhere. <br /><br />**Result:** Reaction time increases when presented with a valid cue shortly before the target stimulus (green area). When increasing the interval, however, the response time for validly cued targets<br /> decreases. This is due to something known as inhibition of return (after Klein, 2000). |
+| <img src="images/l1s8.PNG" style="width:500px"> | **Method:** Subjects are presented with a sensory cue (e.g. a flash of light) at a particular location shortly before the target stimulus is presented in either that location or elsewhere. <br /><br />**Result:** Reaction time increases when presented with a valid cue shortly before the target stimulus (green area). When increasing the interval, however, the response time for validly cued targets<br /> decreases. This is due to something known as inhibition of return (after Klein, 2000). |
 
 
 
@@ -86,7 +86,10 @@ Cognitive psychologists generally think attention works as in the 3rd model in s
 
 2. Determining the brain regions that coordinate these regulations (i.e. the higher-level control regulations), and the mechanisms these regions use.
 
-   <img src="images/l1s9.PNG" style="width:400px">
+   
+   
+
+<img src="images/l1s9.PNG" style="width:400px">
 
 **What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuring behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
 
