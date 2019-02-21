@@ -26,9 +26,9 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 
 
-|                                                 | Studying Visual Spatial Attention --- Hermann von Helmholtz  |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s3.PNG" style="width:300px"> | **Method:** Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br />**Result:** The items in the attended portion could be accurately reported, but not the other ones.<br /><br />**Interpretation:** People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention). |
+|                      | Studying Visual Spatial Attention --- Hermann von Helmholtz  |
+| -------------------- | ------------------------------------------------------------ |
+| ![](images/l1s3.PNG) | **Method:** Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br />**Result:** The items in the attended portion could be accurately reported, but not the other ones.<br /><br />**Interpretation:** People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention). |
 
 
 
@@ -40,21 +40,21 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 
 
-|                                                 | Early Selection Model --- _Broadbent_                        |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s4.PNG" style="width:400px"> | All-or-nothing model. Incoherent with the fact that highly relevant information (such as your name) in an unattended stream still enters consciousness. |
+|                      | Early Selection Model --- _Broadbent_                        |
+| -------------------- | ------------------------------------------------------------ |
+| ![](images/l1s4.PNG) | All-or-nothing model. Incoherent with the fact that highly relevant information (such as your name) in an unattended stream still enters consciousness. |
 
 <br>
 
-|                                                 | Early Selection Based Attenuation Model --- _Treisman_       |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s5.PNG" style="width:400px"> | Some unattended semantic information makes it to the analysis stage. Though only information that stands out (like your own name) passes through the first filter. |
+|                      | Early Selection Based Attenuation Model --- _Treisman_       |
+| -------------------- | ------------------------------------------------------------ |
+| ![](images/l1s5.PNG) | Some unattended semantic information makes it to the analysis stage. Though only information that stands out (like your own name) passes through the first filter. |
 
 <br>
 
-|                                                 | Early, Middle and Late Top-Down Selection                    |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s6.PNG" style="width:400px"> | Allows for early selection based on physical characteristics, but also late selection when semantic processing is needed for selection. It uses top-down control for this approach. |
+|                      | Early, Middle and Late Top-Down Selection                    |
+| -------------------- | ------------------------------------------------------------ |
+| ![](images/l1s6.PNG) | Allows for early selection based on physical characteristics, but also late selection when semantic processing is needed for selection. It uses top-down control for this approach. |
 
 
 
@@ -72,9 +72,9 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 **Exogenous attention** applies to situations where attention is reflexively directed towards a stimulus. Such as when a loud sound is heard.
 
-|                                                 |                                                              |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s8.PNG" style="width:400px"> | **Method:** Subjects are presented with a sensory cue (e.g. a flash of light) at a particular location shortly before the target stimulus is presented in either that location or elsewhere. <br /><br />**Result:** Reaction time increases when presented with a valid cue shortly before the target stimulus (green area). When increasing the interval, however, the response time for validly cued targets<br /> decreases. This is due to something known as inhibition of return (after Klein, 2000). |
+|                      |                                                              |
+| -------------------- | ------------------------------------------------------------ |
+| ![](images/l1s8.PNG) | **Method:** Subjects are presented with a sensory cue (e.g. a flash of light) at a particular location shortly before the target stimulus is presented in either that location or elsewhere. <br /><br />**Result:** Reaction time increases when presented with a valid cue shortly before the target stimulus (green area). When increasing the interval, however, the response time for validly cued targets<br /> decreases. This is due to something known as inhibition of return (after Klein, 2000). |
 
 
 
@@ -86,11 +86,11 @@ Cognitive psychologists generally think attention works as in the 3rd model in s
 
 2. Determining the brain regions that coordinate these regulations (i.e. the higher-level control regulations), and the mechanisms these regions use.
 
-   |                                                 |                                                              |
-   | ----------------------------------------------- | ------------------------------------------------------------ |
-   | <img src="images/l1s9.PNG" style="width:300px"> | <span style="color:white">`________S_________R_________T_________E_________T_________C_________H_________`</span> |
+   |                      |                                                              |
+   | -------------------- | ------------------------------------------------------------ |
+   | ![](images/l1s9.PNG) | <span style="color:white">------------------------S------------------------R------------------------T------------------------E------------------------T------------------------C------------------------H----------------------------------------------------------------------------------</span> |
 
-**What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuring behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
+**What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuringf behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
 
 **What we know about perspective 2:** Studies have indicated that some higher-level brain areas are involved in attentional control. Particularly specific regions in the frontal and parietal lobes. This network seems to control attention with top-down neural signals (i.e. the descending blue arrows in the brain image) that regulate stimulus processing at multiple levels. These proposed mechanisms are explained in the following two subsections.
 
