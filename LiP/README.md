@@ -8,15 +8,15 @@ Basic assumptions:
   - "Language affected by and transmitted via *the body*"
 - **Embeddedness**
   - "Language affects and is affected by *social situations*"
-- - brain’s evolution is co-determined by social developments
+  - brain’s evolution is co-determined by social developments
 - **Mental Models**
 
   - "Humans *represent* the world *internally*"
-- - includes perceptual, spatial, emotional, causal and temporal info
+  - includes perceptual, spatial, emotional, causal and temporal info
 - **Incremental Processing**
 
   - "Humans process language *over time* and *in parts*"
-- - when analyzing messages, stores info is compared to the incoming signal (lexically, syntactically, semantically and world-knowledge-y) including emotion and motor aspects
+  - when analyzing messages, stores info is compared to the incoming signal (lexically, syntactically, semantically and world-knowledge-y) including emotion and motor aspects
 
 
 
@@ -56,10 +56,8 @@ Types of context:
 **Medium (of the message):** *“Any technology that created extensions of the human body and senses”*
 
 - The “form” of the message (e.g. how spoken words are said)
-
 - Considered as part of the message:
-
-- - media create their own environments. Which are beneficial to some messages and hostile to others. Which influence the interpretation of the message.
+  - media create their own environments. Which are beneficial to some messages and hostile to others. Which influence the interpretation of the message.
   - people might be unaware of the effects of the environment their messages reside in, because they don’t know any better
 
 
@@ -91,19 +89,13 @@ Humans communicate via their 5 sensory channels. Using multiple channels *simult
 ## Evolution of language
 
 - Broca’s area was likely already present 2 million years ago
-
 - We’ve had fundamental speech apparatus structures for 60.000 years
-
 - The shapes of our tongues, mouths and throats allows us to make many different sounds but also gives us too many teeth and an increased risk of choking
-
 - **Two theories** of evolution of language:
-
-- - **Discontinuous**: language arose suddenly and spread quickly due to evolutionary advantages and passing the ability to offspring.
+  - Discontinuous**: language arose suddenly and spread quickly due to evolutionary advantages and passing the ability to offspring.
   - **Continuous**: gradual co-evolution of language and other human capabilities.
-
 - **Theory** on why **communication** was beneficial for evolution:
-
-- - Internal representation of the world proved to be a huge advantage in protecting the body.
+  - Internal representation of the world proved to be a huge advantage in protecting the body.
 
 
 
