@@ -118,9 +118,9 @@ placeholder
 
 The Anterior Congulate Cortex (ACC) is the most activated brain region.
 
-| Willed Action and Prefrontal Cortex in Man --- _(1991)_      |                      |
-| ------------------------------------------------------------ | -------------------- |
-| **Method:** scan brain activity via PET. Participants had to make _a_ movement after a stimulus.<br /><br />**Result:** Activation in the ACC | ![](images/l2s3.PNG) |
+|                                                              | Willed Action and Prefrontal Cortex in Man --- _(1991)_ |
+| ------------------------------------------------------------ | ------------------------------------------------------- |
+| **Method:** scan brain activity via PET. Participants had to make _a_ movement after a stimulus.<br /><br />**Result:** Activation in the ACC | ![](images/l2s3.PNG)                                    |
 
 
 
@@ -135,7 +135,8 @@ The idea of **Cognitive Control** distinguishes between:
 
 | Anatomy of the ACC                                           | Subdivision of Activation in the ACC                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![](images/l2s5.PNG)<br>Sight of the medial wall (split between the hemispheres).<br/>Shows similar structures in mammals (indicates the ACC to be an acient structure) | ![](images/l2s6.PNG)<br>No apparent distinction between parts of the ACC when performing certain types of tasks. |
+| ![](images/l2s5.PNG)                                         | ![](images/l2s6.PNG)                                         |
+| Sight of the medial wall (split between the hemispheres).<br/>Shows similar structures in mammals (indicates the ACC to be an acient structure) | No apparent distinction between parts of the ACC when performing certain types of tasks. |
 
 
 
@@ -154,13 +155,42 @@ The idea of **Cognitive Control** distinguishes between:
 
 
 
-**Periods of Theories on the ACC:**
+**Developments of  View on the ACC:**
 
-| Period | Theories | Means |
-| ------ | -------- | ----- |
-| 80's   |          |       |
+| Period     | Developments                         | Means                              |
+| ---------- | ------------------------------------ | ---------------------------------- |
+| 80's       | **box and arrow models**             | _didn't have any fancy techniques_ |
+| early 90's | **computational models of the mind** | _developing AI techniques_         |
+| late 90's  | **functional neuroimaging of ACC**   | _neuroimaging techniques_          |
+| 00's/10's  | **challenges from other fields**     |                                    |
 
 
+
+| Stroop Task --- _John Stroop (1935)_                         |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Method:** participants name the colour of a word. Some match and some don't.<br /><br />**Result:** non-matching words take longer to process.<br /><br />**Conclusion:** IF the word is father than the colour <br />AND the word interferes with the colour, but the colour not interfere with the word <br />THEN the word is automatic and the colour is controlled | <span style="color:#ff0000">RED</span><br /><br /><span style="color:#ff00ff">GREEN</span><br /><br /><span style="color:#00ff00">BLUE</span> |
+
+The results of the **Stroop Task** make a distinction between _AUTOMATIC_ and _CONTROLLED_ processes.
+
+This line of reasoning resulted in the following model:
+
+|                                                              | Supervisory Attentional System (SAS) --- _Norman & Shallice (1986)_ |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1.) **Perceptual System** processes information.<br /><br />2.) **Range of Possible Actions** we could take as a result<br /><br />3.) **Automated Scheduling** determines correct action based on simple selection process<br /><br />4.)  **Supervisory Attentional System** kicks in when more complicated processing is needed | ![](images/l2s13.PNG)                                        |
+
+**Problems with this Model:**
+
+- The SAS is basically just a black box (or homunculus) whose inner workings aren't explained at all
+- Assumes processes are either fully controlled or fully automatic
+- Doesn't explain when and how the SAS gets activated
+
+
+
+People tried to prove the validity (or satisfactory) of this model by formalizing it using a connectionist model:
+
+| Early Connectionist Model for Stroop Task --- _Cohen et. al. (1990)_ |      |
+| ------------------------------------------------------------ | ---- |
+|                                                              |      |
 
 
 
