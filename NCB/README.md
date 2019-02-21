@@ -26,7 +26,7 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 
 
-|                                                 | Studying Visual Spatial Attention --- Hermann von Helmholtz_ |
+|                                                 | Studying Visual Spatial Attention --- Hermann von Helmholtz  |
 | ----------------------------------------------- | ------------------------------------------------------------ |
 | <img src="images/l1s3.PNG" style="width:300px"> | **Method:** Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br />**Result:** The items in the attended portion could be accurately reported, but not the other ones.<br /><br />**Interpretation:** People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention). |
 
@@ -64,9 +64,9 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 **Endogenous attention** applies to situations where a subject voluntarily directs their attention towards stimulus, usually by interpreting a cue (such as an arrow). If the cue provides no information (i.e. a neutral cue), there is no change in behaviour.
 
-|                                                 |                                                              |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| <img src="images/l1s7.PNG" style="width:400px"> | **Method:** The subject's gaze is fixed on a central point. They're presented with a valid, invalid or neutral, position related cue. <br />The subject has to indicate that the target appeared when it does, regardless of the cue. <br /><br />**Result:** Subjects are faster to respond to validly cued targets than invalidly queued ones, with the response time of neutrally cued targets <br />being in the middle. The effect of the queue lasts from 300 milliseconds to several seconds. |
+|                      |                                                              |
+| -------------------- | ------------------------------------------------------------ |
+| ![](images/l1s7.PNG) | **Method:** The subject's gaze is fixed on a central point. They're presented with a valid, invalid or neutral, position related cue. <br />The subject has to indicate that the target appeared when it does, regardless of the cue. <br /><br />**Result:** Subjects are faster to respond to validly cued targets than invalidly queued ones, with the response time of neutrally cued targets <br />being in the middle. The effect of the queue lasts from 300 milliseconds to several seconds. |
 
 
 
@@ -82,13 +82,13 @@ Attention is a broad term, so a clear distinction between it and other terms mus
 
 Cognitive psychologists generally think attention works as in the 3rd model in section ... . When translating this model to a neuroscience framework, attention tends to be approached from two main perspectives:
 
-1. Investigating how the neural processing of stimuli are regulated by attention.
+1. Investigating how the neural processing of stimuli are regulated by attention. stretch 
 
 2. Determining the brain regions that coordinate these regulations (i.e. the higher-level control regulations), and the mechanisms these regions use.
 
-   |                                                 |      |
-   | ----------------------------------------------- | ---- |
-   | <img src="images/l1s9.PNG" style="width:300px"> |      |
+   |                                                 |                                                              |
+   | ----------------------------------------------- | ------------------------------------------------------------ |
+   | <img src="images/l1s9.PNG" style="width:300px"> | <span style="color:white">`________S_________R_________T_________E_________T_________C_________H_________`</span> |
 
 **What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuring behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
 
@@ -113,6 +113,8 @@ The activity from 0 to 10ms comes from the brain stem. 10ms is not enough time f
 ### Effect of Visual Spatial Attention on ...
 
 placeholder
+
+Voor elke state $S$ op tijdstip $t$ (dus $S_t$), is de waarde $S_{t+1}$ gelijk aan de maximale _outcome_ van de successors. Waarbij je de successors berekent door alle mogelijke acties (`UP, DOWN, LEFT, RIGHT`) toepast op $S$ ($S^{\uparrow}$, $S^{\downarrow}$, $S^{\leftarrow}$, $S^{\rightarrow}$). Dus als $S^{\rightarrow}_t$ b.v. de hoogste _outcome_ heeft van allemaal, dan stel de waarde van $S$ op $t+1$ gelijk aan de _outcome_ van $S^{\rightarrow}_t$. Doe dit voor alle states op tijdstip $t$, en herhaal het proces met de nieuwe waarden
 
 # 2. Cognitive Control by the Anterior Cingulate Cortex
 
