@@ -88,7 +88,7 @@ Cognitive psychologists generally think attention works as in the 3rd model in s
 
    |                      |                                                              |
    | -------------------- | ------------------------------------------------------------ |
-   | ![](images/l1s9.PNG) | <span style="color:black">--------------------------S--------------------------R--------------------------T--------------------------E--------------------------T--------------------------C--------------------------H--------------------------</span> |
+   | ![](images/l1s9.PNG) | <span style="color:white">--------------------------S--------------------------T--------------------------R--------------------------E--------------------------T--------------------------C--------------------------H--------------------------</span> |
 
 **What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuringf behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
 
@@ -114,9 +114,59 @@ The activity from 0 to 10ms comes from the brain stem. 10ms is not enough time f
 
 placeholder
 
-Voor elke state $S$ op tijdstip $t$ (dus $S_t$), is de waarde $S_{t+1}$ gelijk aan de maximale _outcome_ van de successors. Waarbij je de successors berekent door alle mogelijke acties (`UP, DOWN, LEFT, RIGHT`) toepast op $S$ ($S^{\uparrow}$, $S^{\downarrow}$, $S^{\leftarrow}$, $S^{\rightarrow}$). Dus als $S^{\rightarrow}_t$ b.v. de hoogste _outcome_ heeft van allemaal, dan stel de waarde van $S$ op $t+1$ gelijk aan de _outcome_ van $S^{\rightarrow}_t$. Doe dit voor alle states op tijdstip $t$, en herhaal het proces met de nieuwe waarden
-
 # 2. Cognitive Control by the Anterior Cingulate Cortex
+
+The Anterior Congulate Cortex (ACC) is the most activated brain region.
+
+| Willed Action and Prefrontal Cortex in Man --- _(1991)_      |                      |
+| ------------------------------------------------------------ | -------------------- |
+| **Method:** scan brain activity via PET. Participants had to make _a_ movement after a stimulus.<br /><br />**Result:** Activation in the ACC | ![](images/l2s3.PNG) |
+
+
+
+The idea of **Cognitive Control** distinguishes between:
+
+- **Automatic processes:** unconscious, can hardly remember
+- **Cognitive control processes:** conscious, requires more thinking, can remember later.<br>Could be because (for example):
+  - Information is conflicting
+  - Excess of information (requires searching for desired info)
+
+
+
+| Anatomy of the ACC                                           | Subdivision of Activation in the ACC                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](images/l2s5.PNG)<br>Sight of the medial wall (split between the hemispheres).<br/>Shows similar structures in mammals (indicates the ACC to be an acient structure) | ![](images/l2s6.PNG)<br>No apparent distinction between parts of the ACC when performing certain types of tasks. |
+
+
+
+
+**Two Major Theories on the Workings of the ACC:**
+
+- **Conflict Monitoring Theory**
+  - Suggests the ACC _monitors_ for situations in which cognitive control is needed
+  - Old theory ('80-'90)
+  - Proposed by Princeton group (_Cohen, Carter, Botvinick_)
+- **Reward-Based Theories**
+  - Argue ACC has a more _active_ role in _selecting actions_
+  - Based on a Bilological and Neurophysiological view
+  - (mainly) Proposed by groups in Champaign-Urdana (_Holroyd, Coles_) and Oxford (_Rushworth_)
+  - Based on humans and animals
+
+
+
+**Periods of Theories on the ACC:**
+
+| Period | Theories | Means |
+| ------ | -------- | ----- |
+| 80's   |          |       |
+
+
+
+
+
+
+
+
 
 # 3. Frontal Asymmetry of Motivational Control
 
