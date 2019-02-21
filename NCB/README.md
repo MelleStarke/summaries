@@ -88,7 +88,7 @@ Cognitive psychologists generally think attention works as in the 3rd model in s
 
    |                      |                                                              |
    | -------------------- | ------------------------------------------------------------ |
-   | ![](images/l1s9.PNG) | <span style="color:white">--------------------------S--------------------------T--------------------------R--------------------------E--------------------------T--------------------------C--------------------------H--------------------------</span> |
+   | ![](images/l1s9.PNG) | <span style="color:white">ooooooooooooooooooooooooooooooooooooooooooooooooooooooo</span> |
 
 **What we know about perspective 1:** Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuringf behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.
 
@@ -209,21 +209,21 @@ _Now that we have a model that explains Stroop task data, we can use it to deter
 
 _Now we have a possible explanation for the inner workings of the SAS. But it still doesn't explain when control is needed._
 
-|                                                              | Conflict Monitoring Model <br />--- _Botvinick et al. (2001)_ |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Idea: take the already existing connectionist model for the Stroop task and add another node that functions as a conflict monitor. This conflict monitor is the **product of the two response nodes**. The conflict monitor activates the TASK DEMAND nodes | ![](images/l2s30.PNG)                                        |
+|                                                              | Cognitive Control Model <br />--- _Botvinick et al. (2001)_ |
+| ------------------------------------------------------------ | ----------------------------------------------------------- |
+| Idea: take the already existing connectionist model for the Stroop task and add another node that functions as a conflict monitor. This conflict monitor is the **product of the two response nodes**. The conflict monitor activates the TASK DEMAND nodes | ![](images/l2s30.PNG)                                       |
 
 _Now we have a model that embodies the basic properties of the ACC, but is this model indeed correct? If it is, then it should also embody the fact that people remain more aware for a short time after needing cognitive control (e.g. a hightened sense of awareness after someone jumps in front of your car)._ 
 
 | Effects of Incongruency Ratio on Interference --- _Tzelgov et al. (1992)_ | Human Trial Data      | Connectionist Data    |
 | ------------------------------------------------------------ | --------------------- | --------------------- |
-| To figure this out, people experimented with the ratio of congruent vs incongruent trials (x-axis displays ratio of incongruent to congruent trials)<br /><br />**Method:** just the Stroop task with humans again, this time with varying ratios of incongruency.<br /><br />**Result:** high incongruency ratios result in lower interference. **Similar results** for the Conflict Monitoring Model. <br /><br />**Conclusion:** the Conflict Monitoring Model captures the presence prolonged activation of cognitive control in human cognition. | ![](images/l2s32.PNG) | ![](images/l2s33.PNG) |
+| To figure this out, people experimented with the ratio of congruent vs incongruent trials (x-axis displays ratio of incongruent to congruent trials)<br /><br />**Method:** just the Stroop task with humans again, this time with varying ratios of incongruency.<br /><br />**Result:** high incongruency ratios result in lower interference. **Similar results** for the Cognitive Control Model. <br /><br />**Conclusion:** the Cognitive Control Model captures the presence prolonged activation of cognitive control in human cognition. | ![](images/l2s32.PNG) | ![](images/l2s33.PNG) |
 
 
 
 ## Neuroimaging Studies (late 90's)
 
-_In the 90's, people tried using neuroimaging to locate the modules of the Conflict Monitoring Model in the brain_
+_In the 90's, people tried using neuroimaging to locate the modules of the Cognitive Control Model in the brain_
 
 ### Locating the Conflict Monitoring Module
 
@@ -258,7 +258,7 @@ The **important distinction** here was that the conflict module should _not_ be 
 
 
 
-### Is the ACC Activated by Everything?
+### Testing the Validity of the Cognitive Control Model using Neuroimaging
 
 
 
