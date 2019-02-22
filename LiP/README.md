@@ -204,19 +204,9 @@ Distinguishes between **Language Comprehension** and **Language Production**.<br
 **Research Techniques:**
 
 - **Memory (off-line)**
-  - recognition
-  - recall
 - **Reaction Time (on-line)**
-  - naming something
-  - semantic categorization
-  - Lexical Decision and Primed Lexical Decision
 - **Eye Tracking**
-  - sentence reading
-  - Rapid Serial Visual Representation (RSVP)
-  - visual world paradigm
 - **Neuroscientific Techniques**
-  - EEG / ERP
-  - fMRI
 
 
 
@@ -237,6 +227,31 @@ Term: **Second Language Acquisition (SLA)**
 
 ## Reaction Time (on-line)
 
+_In the 60's and 70's people proposed that responding to language probably involves several stages. In order to inspect this idea, the Mental Chronometry experiments were conducted. These just measured the reaction time for the pronunciation of words._
+
+_Donders: "we can only measure reaction time. So if we have 2 processes that differ only in one single aspect, then the difference in reaction time must tell us something about the difference in processing of the stimuli."_
+
+
+
+**Donders' Reaction Time Idea:**
+
+1. Measure the RT  for a linguistic activity (RT1)
+2. Change one small thing and try again (RT2)
+3. Difference between RT1 and RT2 reflects the difference in the processing of the stimuli
+
+
+
+**Different techniques for measuring RT:**
+
+| Technique                   | Discipline                 | Example/Explanation                                |
+| --------------------------- | -------------------------- | -------------------------------------------------- |
+| **Naming Pictures**         | -                          | _pronounce name of something in a picture_         |
+| **Naming Words**            | PHONOLOGY                  | _pronounce word_                                   |
+| **Semantic Categorization** | SEMANTICS                  | _"is 'elephant' a larger object than 'computer' "_ |
+| **Lexical Decision**        | ORTHOGRAPHY and LEXICOLOGY | decide if a word is real or not                    |
+| **Primed Lexical Decision** | ORTHOGRAPHY and LEXICOLOGY | _"cat!" \<wait 5 sec\> "is 'cad' a word?"_         |
+| **Cross-Modal Priming**     | -                          |                                                    |
+
 
 
 
@@ -245,7 +260,11 @@ Term: **Second Language Acquisition (SLA)**
 
 ### Diffusion Tensor Imaging (DTI)
 
-**How it works:** DTI measures how water diffuses/travels along whote-matter tracts, which connect different parts of the brain. DTI can measure neuroanatomical changes in fibre myelination with learning and development. It's also a **form of MRI.**
+| | |
+|-|-|
+|**How it works:** DTI measures how water diffuses/travels along whote-matter tracts, which connect different parts of the brain. DTI can measure neuroanatomical changes in fibre myelination with learning and development. It's also a **form of MRI.**<br><br>This shows that memory research can be linked to brain research.|![](images/connectome.jpg)|
+
+
 
 
 
