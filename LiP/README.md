@@ -243,26 +243,169 @@ _Donders: "we can only measure reaction time. So if we have 2 processes that dif
 
 **Different techniques for measuring RT:**
 
-| Technique                   | Discipline                 | Example/Explanation                                |
-| --------------------------- | -------------------------- | -------------------------------------------------- |
-| **Naming Pictures**         | -                          | _pronounce name of something in a picture_         |
-| **Naming Words**            | PHONOLOGY                  | _pronounce word_                                   |
-| **Semantic Categorization** | SEMANTICS                  | _"is 'elephant' a larger object than 'computer' "_ |
-| **Lexical Decision**        | ORTHOGRAPHY and LEXICOLOGY | decide if a word is real or not                    |
-| **Primed Lexical Decision** | ORTHOGRAPHY and LEXICOLOGY | _"cat!" \<wait 5 sec\> "is 'cad' a word?"_         |
-| **Cross-Modal Priming**     | -                          |                                                    |
+| Technique                   | Linguistic Discipline      | Example/Explanation                                          |
+| --------------------------- | -------------------------- | ------------------------------------------------------------ |
+| **Naming Pictures**         | -                          | _pronounce name of something in a picture_                   |
+| **Naming Words**            | PHONOLOGY                  | _pronounce word_                                             |
+| **Semantic Categorization** | SEMANTICS                  | _"is 'elephant' a larger object than 'computer' "_           |
+| **Lexical Decision**        | ORTHOGRAPHY and LEXICOLOGY | "is 'bouse' a real word?"                                    |
+| **Primed Lexical Decision** | ORTHOGRAPHY and LEXICOLOGY | _"cat!" \<wait 60 ms\> "is 'cad' a word?"_                   |
+| **Cross-Modal Priming**     | -                          | _same as above, but with priming in a different modality (e.g. visual, auditory). Like a visual target and an auditory story as a prime_ |
+
+**Primed Lexical Decision:**
+
+- it is assumed that the priming stimulus is temporarily stored in the sensory buffer. When the target arrives, the prime will be able to facilitate its processing.
+
+
+
+## Eye Tracking
+
+- Follows someone's gaze when it lands on a word (**fixation**) and jumps through the text (**saccade**)
+- Two variants:
+  - Sentence Reading, another 2 variants:
+    - **Rapid Serial Visual Presentation (RSVP)**: word by word
+    - **Sentence as a Whole**
+  - Speech Recognition
+    - **Visual World Paradigm**
+
+
+
+### Sentence Reading
+
+**Eye Movements:**
+
+| Name               | Description                                                  |
+| ------------------ | ------------------------------------------------------------ |
+| **Fixation**       | eyes stopping on a word or words                             |
+| **Inter-Fixation** | eyes moving from one stopping point to another               |
+| **Return Sweeps**  | eyes moving from the end of a line to the start of the next (like a typewriter) |
+| **Saccades**       | hops forward that skip words, particularly common ones       |
+| **Regression**     | going back to double check                                   |
+
+_From these sentence reading experiments, we can conclude 2 things:_
+
+- _Humans can read about 5-8 letters per fixation_
+- _Word recognition takes about 200 ms_
+
+Sometimes in Whole Sentence Presentation, letters are replaced by x's in order to test to what extent words can still be recognized
+
+RSVP is friendlier towards EEG's than Whole Sentence Presentation, because there are no muscle movements involved that could cloud the EEG signal.
+
+
+
+### Visual World Paradigm
+
+|                       | Visual World Paradigm                                        |                                                              |
+| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![](images/l2s22.PNG) | **Method:** instruct participants to click on a certain item, and record how long the eyes stay fixed on each item. Manipulate the relations between these objects.<br /><br />**Result:** distractors and cohort competitors are considered for longer than other words.<br />This eye tracking data is very sensitive to manipulations in auditory stimuli, even before the message is finished. | ![](images/l2s23.PNG)<br /><center>(graph from a different study)</center> |
+
+
+
+## Electroencephalogram (EEG)
+
+- "Measures electrical activity of the brain over time in response to an event."
+
+- This results in **Event Related Potentials (ERP's)** 
+
+
+
+### Event Related Potentials (ERP's)
+
+- ERP's can be finished earlier if the related information is easier to process. e.g. processing function words ('and', 'of', etc.) results in a shorter ERP than processing content words ('home', 'walk', etc.)
+- Rule of Thumb: the more difficult a condition is, the larger the ERP peak will be
+
+
+
+|                       | Measuring ERP's                                              |
+| --------------------- | ------------------------------------------------------------ |
+| ![](images/l2s28.PNG) | An amplifier is needed because the signals are very weak.<br /><br />The same stimulus is presented over many trials and the average activation is plotted on a graph.<br /><br />Negative charge is plotted upwards. This is because electrical charge is transmitted via electrons, which have a negative charge.<br />Meaning that a negatively charged peak indicates an increase in processing. |
+
+
+
+**ERP's and their meanings:**
+
+|                      Name                      | Timeframe (ms) | Assumed to Indicate...                                       |
+| :--------------------------------------------: | :------------: | ------------------------------------------------------------ |
+| **ELAN**<br />(Early Left Anterior Negativity) |  _100 - 300_   | **Word Category or Word Order Violations**                   |
+|       **MMN**<br />(Mismatch Negativity)       |  _150 - 250_   | **Deviation in a Pattern of Stimuli**<br />evoked by either a change in frequency, duration or loudness of an auditory stimulus. Or, by an infrequent change in a sequence of images for visual stimuli. |
+|                    **P300**                    |  _250 - 500_   | **Stimulus Evaluation or Categorization**<br />endogenous potential. Occurs when a  stimulus has "meaning" that needs further evaluation |
+|                    **N400**                    |  _350 - 500_   | **Lexical-Semantic Integration Processing**<br />occurs when presented with a different word than expected (e.g. "he eats his spaghetti with a _baseball_"). Stronger effect for pseudo-words |
+|     **LPC<br />**(Late Positive Component)     |  _400 - 500_   | **Explicit Recognition Memory Processing**<br />particularly strong for "already known" stimuli |
+|                    **P600**                    |  _500 - 700_   | **Syntactic Violations**<br />like spelling errors           |
+
+
+
+**What Differentiates One ERP from Another**:
+
+- Time
+- Surface between both signals
+- Degree of positivity / negativity
+- Scalp distribution
+
+
+
+**Pro's and Con's of ERP's**
+
+- **Pro's:** 
+  - Fantastic temporal resolution
+  - Can directly measure neural activity
+  - Allows us to investigate intermediate steps in stimulus processing
+- **Con's:**
+  - The signals are very weak
+  - Spatially a total nightmare
+  - Cannot measure deeper electrical activity
+
+Though keep in mind that an EEG might not measure everything that's going on. And that an earlier peak in EEG activity might not necessarily indicate that one process occurs earlier than another one.
 
 
 
 
 
-(...)
+MEG = Magnetic Encephalogram<br>EMG = Electromyogram 
+
+EEG and MEG are very similar, but differ in the sense that EEG measures electrical signals and MEG magnetic ones
+
+
+
+## Functional Magnetic Resonance Imaging (fMRI)
+
+an MRI machine measures changes in a strong magnetic field to derive changes in the oxygenisation of the blood. 
+
+**fMRI** studies the functions of the brain by investigating changes in MRI results when subjects perform a certain task.
+
+
+
+### Blood Oxygen Level Dependent signal (BOLD signal)
+
+**EPI-fMRI** measures the BOLD level of the brain
+
+- EPI = **Echo Planar Imaging**. A technique to produce a complete image of the brain based on a single sample
+
+the BOLD signal depends on the ratio of oxygen-rich to oxygen-poor blood.
+
+
 
 ### Diffusion Tensor Imaging (DTI)
 
 | | |
 |-|-|
-|**How it works:** DTI measures how water diffuses/travels along whote-matter tracts, which connect different parts of the brain. DTI can measure neuroanatomical changes in fibre myelination with learning and development. It's also a **form of MRI.**<br><br>This shows that memory research can be linked to brain research.|![](images/connectome.jpg)|
+|![](images/connectome.jpg)|DTI measures how water diffuses/travels along white-matter tracts, which connect different parts of the brain. DTI can measure neuroanatomical changes in fibre myelination with learning and development. It's also a **form of MRI.**<br><br>This shows that memory research can be linked to brain research.|
+
+
+
+
+
+**Pro's and Con's of fMRI:**
+
+- **Pro's:**
+  - Very high spatial resolution
+  - Very sensitive technique
+  - Allows for computation of connectivity between brain regions
+- **Con's:**
+  - Only measures neural activity indirectly (as opposed to EEG)
+  - BOLD signal is slow
+  - Poor temporal resolution
+  - MRI scans take a while
 
 
 
