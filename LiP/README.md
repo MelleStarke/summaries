@@ -112,13 +112,13 @@ Humans communicate via their 5 sensory channels. Using multiple channels *simult
 
 | Sender-Receiver Model                                        |                                                 |
 | ------------------------------------------------------------ | ----------------------------------------------- |
-| The sender encodes meaning into a message and sends it through a channel.The receiver decodes the received message into meaning. <br /><br />Certain factors (such as noise) can result in differences between the encoded and decoded message.<br /><br />The Sender-Receiver model can be seen as a simplified version of two "perception-action models" interacting. This is also in line with the **LUF** | <img src="images/srmf.png" style="width:600px"> |
+| The sender encodes meaning into a message and sends it through a channel.The receiver decodes the received message into meaning. <br /><br />Certain factors (such as noise) can result in differences between the encoded and decoded message.<br /><br />The Sender-Receiver model can be seen as a simplified version of two "perception-action models" interacting. This is also in line with the **LUF** | <img src="images/srmf.PNG" style="width:600px"> |
 
 
 
 | Two "perception-action models" interacting                   |                                                |
 | ------------------------------------------------------------ | ---------------------------------------------- |
-| Here the receiver approximates the mental state of the sender via **prediction** or **integration**.<br /><br />**Prediction:** _"(could be defined as) activating information that will come up before it's even there"_<br /><br />**Integration** happens when feedback is used to update your mental model about the situation. | <img src="images/srm.png" style="width:700px"> |
+| Here the receiver approximates the mental state of the sender via **prediction** or **integration**.<br /><br />**Prediction:** _"(could be defined as) activating information that will come up before it's even there"_<br /><br />**Integration** happens when feedback is used to update your mental model about the situation. | <img src="images/srm.PNG" style="width:700px"> |
 
 
 
@@ -135,7 +135,7 @@ Distinguishes between **Language Comprehension** and **Language Production**.<br
 
 | Language User Framework                                      |                                                |
 | ------------------------------------------------------------ | ---------------------------------------------- |
-| <span style="color: #ff00ff">Magenta:</span> concerns **thought** (incl. meaning, changing ideas, mental models). Also connects to other systems, such as emotional or musical.<br><span style="color: #dddd00">Yellow</span><span style="color: #ddc000"> to </span><span style="color: #ff9000">orange:</span> concerns **representation of language** and is **hierarchical**<br /><br /><span style="color: #ddc000">Lexical</span>, <span style="color: #ff7000">Syntactic</span> and <span style="color: #ff00ff">Semantic</span> information is processed **IN PARALLEL**. | <img src="images/luf.png" style="width:700px"> |
+| <span style="color: #ff00ff">Magenta:</span> concerns **thought** (incl. meaning, changing ideas, mental models). Also connects to other systems, such as emotional or musical.<br><span style="color: #dddd00">Yellow</span><span style="color: #ddc000"> to </span><span style="color: #ff9000">orange:</span> concerns **representation of language** and is **hierarchical**<br /><br /><span style="color: #ddc000">Lexical</span>, <span style="color: #ff7000">Syntactic</span> and <span style="color: #ff00ff">Semantic</span> information is processed **IN PARALLEL**. | <img src="images/luf.PNG" style="width:700px"> |
 
 
 
@@ -195,7 +195,57 @@ Distinguishes between **Language Comprehension** and **Language Production**.<br
 - **Automatic:** involuntary, unconscious, doesn't affect the attentional system or its resources
 - **Controlled:** voluntary, conscious, affects the attentional system and its resources, *SERIAL* (doesn't occur simultaneously with another process)
 
+
+
+(....)
+
 # 2. Research Techniques
+
+**Research Techniques:**
+
+- **Memory (off-line)**
+  - recognition
+  - recall
+- **Reaction Time (on-line)**
+  - naming something
+  - semantic categorization
+  - Lexical Decision and Primed Lexical Decision
+- **Eye Tracking**
+  - sentence reading
+  - Rapid Serial Visual Representation (RSVP)
+  - visual world paradigm
+- **Neuroscientific Techniques**
+  - EEG / ERP
+  - fMRI
+
+
+
+## Memory (off-line)
+
+2 types of tasks:
+
+- **Recognition** ("Did you see this item?")
+- **Recall** ("Which items did you see?")
+
+Term: **Second Language Acquisition (SLA)**
+
+| Different Types of Memory |                                                              |
+| ------------------------- | ------------------------------------------------------------ |
+| ![](images/l2s3.PNG)      | <span style="color:var(--bg-color)">ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</span> |
+
+
+
+## Reaction Time (on-line)
+
+
+
+
+
+(...)
+
+### Diffusion Tensor Imaging (DTI)
+
+**How it works:** DTI measures how water diffuses/travels along whote-matter tracts, which connect different parts of the brain. DTI can measure neuroanatomical changes in fibre myelination with learning and development. It's also a **form of MRI.**
 
 
 

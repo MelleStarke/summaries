@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title><link href='https://raw.githubusercontent.com/slashfoo/lmweb/master/style/latinmodern-mono-light.css' rel='stylesheet' type='text/css' />
+<link href='academic/codeblock.dark.css' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+.cm-outer { background: rgb(255, 255, 255); color: rgb(255, 255, 255); }
+.cm-s-inner { color: rgb(255, 255, 255); background: rgb(255, 255, 255); }
+.cm-s-inner .cm-variable, .cm-s-inner .cm-operator, .cm-s-inner .cm-property { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-keyword { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-tag { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-attribute { color: rgb(255, 255, 255); }
+.CodeMirror div.CodeMirror-cursor { border-left: 1px solid rgb(255, 255, 255); z-index: 3; }
+.cm-s-inner .cm-string { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-header, .cm-s-inner .cm-def, .cm-s-inner.cm-header, .cm-s-inner.cm-def { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-hr { }
+.cm-s-inner .cm-link { }
+.cm-s-inner .cm-negative { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-positive { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-meta, .cm-s-inner .cm-qualifier { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-builtin { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-bracket { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-number { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-variable { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-variable-2 { color: rgb(255, 255, 255); }
+.cm-s-inner .cm-variable-3 { color: rgb(255, 255, 255); }
+.CodeMirror-selectedtext, .CodeMirror-selected { background: rgb(255, 255, 255); text-shadow: none; color: rgb(255, 255, 255) !important; }
+.CodeMirror-gutters { border-right: rgb(255, 255, 255); }
+
+
+:root { --bg-color: #363B40; --side-bar-bg-color: #2E3033; --text-color: #b8bfc6; --select-text-bg-color:#4a89dc; --control-text-color: #b7b7b7; --control-text-hover-color: #eee; --window-border: 1px solid #555; --active-file-bg-color: rgb(34, 34, 34); --active-file-border-color: #8d8df0; --active-file-text-color: white; --item-hover-bg-color: #70717d; --item-hover-text-color: white; --primary-color: #6dc1e7; --rawblock-edit-panel-bd: #4B535A; --code-bg-color: #363B40; }
+html { font-size: 12pt; }
+#write { font-family: STIX2Text, "Times New Roman", serif; line-height: 1.5em; padding: 5% 10% 10%; }
+.file-list-item-summary { height: 36px; }
+.file-list-item { padding-bottom: 18px; padding-top: 18px !important; }
+#sidebar-loading-template.file-list-item { padding-top: 0px !important; }
+a, a:visited { color: rgb(170, 0, 0); }
+h1, h2, h3, h4, h5, h6 { font-family: inherit; line-height: 1.5em; margin-bottom: 1em; margin-top: 1em; }
+h1 { font-size: 2.4em; line-height: 1.2; border-bottom: 1px solid var(--text-color); }
+#write h1 { text-align: center; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1em; }
+p { margin-top: 1em; margin-bottom: 1em; text-align: justify; }
+pre, code { font-family: "Latin Modern Mono Light", "Latin Modern Mono", monospace !important; }
+.footnotes { display: list-item; margin-left: 1em; }
+.md-fences { border: 1px solid; }
+.md-fences.md-fences-with-lineno { border: none; }
+.CodeMirror-linenumber { color: rgb(51, 51, 51); }
+.in-text-selection, ::selection, .CodeMirror-selected { background: var(--search-select-bg-color); text-shadow: none; color: var(--search-select-text-color)  !important; }
+a.md-toc-inner { color: var(--text-color); }
+.cm-s-typora-default .cm-link { color: rgb(170, 0, 0); text-decoration: underline; }
+.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property { color: black; }
+#typora-source .CodeMirror-lines { -webkit-font-smoothing: auto; max-width: 1000px; }
+.md-def-name::before, .md-def-name::after { color: rgb(45, 45, 45); }
+sup.md-footnote { background-color: initial; color: inherit; }
+mark { background: rgb(255, 243, 135); }
+td, th { border: 1px solid; padding-left: 1ch; padding-right: 1ch; }
+th { border-bottom: 0px rgb(51, 51, 51); padding-top: 2px; background: rgb(87, 92, 97); border-top-color: rgb(51, 51, 51); border-right-color: rgb(51, 51, 51); border-left-color: rgb(51, 51, 51); color: rgb(243, 243, 243); }
+pre.md-meta-block { border: 1px solid rgb(162, 169, 177); background-color: rgb(248, 249, 250); padding: 5px; margin-bottom: 1em; }
+.task-list-item input::before { content: "√"; display: inline-block; width: 1.25rem; height: 1.6rem; vertical-align: middle; text-align: center; color: rgb(187, 187, 187); background-color: inherit; }
+.task-list-item input:checked::before, .task-list-item input[checked]::before { color: inherit; }
+.md-task-list-item > input { top: auto; margin-left: -1.1em; font-size: 1.3em; margin-top: 0px; -webkit-appearance: none; }
+.md-task-list-item input::before { content: "☐"; display: inline-block; width: 1.25rem; height: 1.6rem; vertical-align: middle; text-align: center; color: rgb(187, 187, 187); background-color: inherit; }
+.md-task-list-item input:checked::before, .md-task-list-item input[checked]::before { color: inherit; content: "☑"; }
+.task-list-item { padding-left: 1.5em; }
+blockquote { font-style: italic; padding: 0.25em 24px; position: relative; color: rgb(56, 56, 56); border-left: 2px solid; }
+#write > blockquote { padding: 0.25em 30px; margin-left: -32px; width: calc(100% + 32px); }
+#write > .md-fences-with-lineno { margin-left: -33px; color: black; }
+.CodeMirror-linenumber { min-width: 25px; }
+.md-header { font-size: inherit !important; }
+sup.md-footnote { background-color: var(--code-bg-color); color: var(--font-color); }
+pre, code, kbd, tt, var { background: var(--background-color); font-weight: bold; font-family: "Courier New", Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; color: rgb(184, 191, 198); }
+html, body, button, input, select, textarea, div.code-tooltip-content { color: rgb(184, 191, 198); border-color: transparent; }
+div.code-tooltip, .md-hover-tip .md-arrow::after { background: rgb(75, 83, 90); }
+.popover.bottom > .arrow::after { border-bottom-color: rgb(75, 83, 90); }
+
+
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>1. Attention by Biased Competition</h1><h2><a name='header-n2' class='md-header-anchor '></a>Cocktail Party Effect</h2><p>The phenomenon in which multiple conversations and other sounds are occurring simultaneously, yet a listener can selectively focus on one voice or conversation and effectively tune out the others.</p><figure><table><thead><tr><th style='text-align:left;' >Cocktail Party Experiment --- <em>Colin Cherry (1953)</em></th></tr></thead><tbody><tr><td style='text-align:left;' ><strong>Method:</strong> 2 different messages are presented to the left and right ear respectively. The subject has to attend the message in a specific ear and repeat it immediately (i.e. shadowing). The content of the unattended message is also asked.<br /><br /><strong>Result:</strong> Subjects could accurately report the content of the attended message, but struggled with the unattended message (i.e. performance is better after a valid cue). Though most subjects accurately reported the gender of the speaker of the unattended message. Subjects also struggled with attending 2 streams simultaneously.<br /><br /><strong>Conclusion:</strong> 1.) Even if multiple pass through the ears, cochlea and nervous system, we can focus on one and block out the others by means of our conscious attention. <br />2.) The cue that instructs us what stream we have to attend to is kept &quot;alive&quot; in neuronal circuits long before the actual stimulus appears. <br />3.) The attended stream enters conscious awareness and can later be remembered.</td></tr></tbody></table></figure><p>Later experiments showed that attention was given to the unattended message when it mentioned the subject&#39;s name. This indicates that some info in the unattended message makes it to the semantic level. <br>Fun fact: impairment of selective attention is one of the major symptoms in pathological states such as schizophrenia and ADHD.</p><p>&nbsp;</p><h2><a name='header-n11' class='md-header-anchor '></a>Attention</h2><p>Attention is a broad term, so a clear distinction between it and other terms must be made. Most notably arousal.</p><p><strong>Attention &amp; Arousal</strong>:</p><ul><li>Arousal describes the global state of the brain. The broadest categorization is the spectrum between being awake or asleep.</li><li>When asleep, people are very unattentive. But when awake, people can have varying levels of attentiveness.</li><li>Research shows that people have slower reactions and reduced performance in cognitive tasks when drowsy.</li><li>Most often, <strong>attention is selectively focused</strong>. Meaning that processing resources are allocated to certain stimuli, while neglecting other stimuli.</li><li>Lecturer: <em>&quot;Selective attention assumes a minimum level of arousal, on top of which there is selection that is driven by a certain dimension (e.g. spatial, auditory, etc.)&quot;</em></li></ul><p>&nbsp;</p><figure><table><thead><tr><th>&nbsp;</th><th>Studying Visual Spatial Attention --- Hermann von Helmholtz</th></tr></thead><tbody><tr><td><img src='images/l1s3.PNG' alt='' referrerPolicy='no-referrer' /></td><td><strong>Method:</strong> Example of the cocktail party effect. Subjects were briefly presented with an array of letters and asked to recall them afterwards. Subjects also had to attend a certain portion of the array without shifting their gaze.<br /><br /><strong>Result:</strong> The items in the attended portion could be accurately reported, but not the other ones.<br /><br /><strong>Interpretation:</strong> People are able to attend a certain portion of the visual field without shifting their gaze towards it (i.e. covert/peripheral attention). As opposed to when the gaze is directed towards a stimulus (i.e. overt attention).</td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n34' class='md-header-anchor '></a>Attention Selection Models</h2><p><strong>Early selection</strong> states that irrelevant information is filtered out before it is analyzed.</p><p><strong>Late selection</strong> states that information is first processed before selection occurs.</p><p>&nbsp;</p><figure><table><thead><tr><th>&nbsp;</th><th>Early Selection Model --- <em>Broadbent</em></th></tr></thead><tbody><tr><td><img src='images/l1s4.PNG' alt='' referrerPolicy='no-referrer' /></td><td>All-or-nothing model. Incoherent with the fact that highly relevant information (such as your name) in an unattended stream still enters consciousness.</td></tr></tbody></table></figure><br><figure><table><thead><tr><th>&nbsp;</th><th>Early Selection Based Attenuation Model --- <em>Treisman</em></th></tr></thead><tbody><tr><td><img src='images/l1s5.PNG' alt='' referrerPolicy='no-referrer' /></td><td>Some unattended semantic information makes it to the analysis stage. Though only information that stands out (like your own name) passes through the first filter.</td></tr></tbody></table></figure><br><figure><table><thead><tr><th>&nbsp;</th><th>Early, Middle and Late Top-Down Selection</th></tr></thead><tbody><tr><td><img src='images/l1s6.PNG' alt='' referrerPolicy='no-referrer' /></td><td>Allows for early selection based on physical characteristics, but also late selection when semantic processing is needed for selection. It uses top-down control for this approach.</td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n63' class='md-header-anchor '></a>Endogenous vs. Exogenous Attention</h2><p><strong>Endogenous attention</strong> applies to situations where a subject voluntarily directs their attention towards stimulus, usually by interpreting a cue (such as an arrow). If the cue provides no information (i.e. a neutral cue), there is no change in behaviour.</p><figure><table><thead><tr><th>&nbsp;</th><th>Endogenous Attention Experiment</th></tr></thead><tbody><tr><td><img src='images/l1s7.PNG' alt='' referrerPolicy='no-referrer' /></td><td><strong>Method:</strong> The subject&#39;s gaze is fixed on a central point. They&#39;re presented with a valid, invalid or neutral, position related cue. <br />The subject has to indicate that the target appeared when it does, regardless of the cue. <br /><br /><strong>Result:</strong> Subjects are faster to respond to validly cued targets than invalidly queued ones, with the response time of neutrally cued targets <br />being in the middle. The effect of the queue lasts from 300 milliseconds to several seconds.</td></tr></tbody></table></figure><p>&nbsp;</p><p><strong>Exogenous attention</strong> applies to situations where attention is reflexively directed towards a stimulus. Such as when a loud sound is heard.</p><figure><table><thead><tr><th>&nbsp;</th><th>Exogenous Attention Experiment</th></tr></thead><tbody><tr><td><img src='images/l1s8.PNG' alt='' referrerPolicy='no-referrer' /></td><td><strong>Method:</strong> Subjects are presented with a sensory cue (e.g. a flash of light) at a particular location shortly before the target stimulus is presented in either that location or elsewhere. <br /><br /><strong>Result:</strong> Reaction time increases when presented with a valid cue shortly before the target stimulus (green area). When increasing the interval, however, the response time for validly cued targets<br /> decreases. This is due to something known as inhibition of return (after Klein, 2000).</td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n82' class='md-header-anchor '></a>Neuroscience Approach to Studying Attention</h2><p>Cognitive psychologists generally think attention works as in the 3rd model in section ... . When translating this model to a neuroscience framework, attention tends to be approached from two main perspectives:</p><figure><table><thead><tr><th>Cognitive Psychology&#39;s View on Attention</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody><tr><td><img src='images/l1s9.PNG' alt='' referrerPolicy='no-referrer' /></td><td>1.) Investigating <strong>how</strong> the neural <strong>processing of stimuli are regulated by attention</strong>.<br /><br />2.) Determining the <strong>brain regions that coordinate these regulations</strong> (i.e. the higher-level control regulations), and the mechanisms these regions use.</td><td>&nbsp;</td></tr></tbody></table></figure><p><strong>What we know about perspective 1:</strong> Attentional regulation should be reflected by changes in neural activity. For sensory systems, this would be in the thick yellow arrows in the right-hand figure. However, studies measuringf behaviour performance (e.g. reaction time or accuracy) w.r.t. attention always depend on indirect approaches. Although, our ability to measure brain activity (while the subject is performing a task) has rapidly evolved in recent years. These developments can reveal much about neurobiological mechanisms of attentional effects on stimulus processing.</p><p><strong>What we know about perspective 2:</strong> Studies have indicated that some higher-level brain areas are involved in attentional control. Particularly specific regions in the frontal and parietal lobes. This network seems to control attention with top-down neural signals (i.e. the descending blue arrows in the brain image) that regulate stimulus processing at multiple levels. These proposed mechanisms are explained in the following two subsections.</p><p>&nbsp;</p><h2><a name='header-n99' class='md-header-anchor '></a>Neural Effects of Auditory Attention on Stimulus Processing</h2><p>The activity from 0 to 10ms comes from the brain stem. 10ms is not enough time for a stimulus to be processed in the neocortex. We want to know when attention effects the response to the stimulus (brain stem, early in the neocortex, late in the neocortex, etc.)</p><h3><a name='header-n101' class='md-header-anchor '></a>Early and Late Auditory Selection</h3><p>&lt;figure on slide 12&gt;</p><h2><a name='header-n103' class='md-header-anchor '></a>Neural Effects of Visual Attention on Stimulus Processing</h2><h3><a name='header-n104' class='md-header-anchor '></a>Neuroimaging of Visual Spatial Attention</h3><p>&lt;slide 17&gt;</p><h3><a name='header-n106' class='md-header-anchor '></a>Effect of Visual Spatial Attention on ...</h3><p>placeholder</p><h1><a name='header-n108' class='md-header-anchor '></a>2. Cognitive Control by the Anterior Cingulate Cortex</h1><p>The Anterior Cingulate Cortex (ACC) is the most activated brain region, and is assumed to be responsible for cognitive control.</p><p>The idea of <strong>Cognitive Control</strong> distinguishes between:</p><ul><li><p><strong>Automatic processes:</strong> unconscious, can hardly remember</p></li><li><p><strong>Cognitive control processes:</strong> conscious, requires more thinking, can remember later.<br>Could be because (for example):</p><ul><li>Information is conflicting</li><li>Excess of information (requires searching for desired info)</li></ul></li></ul><p>&nbsp;</p><p><strong>Two Major Theories on the Workings of the ACC:</strong></p><ul><li><p><strong>Conflict Monitoring Theory</strong></p><ul><li>Suggests the ACC <em>monitors</em> for situations in which cognitive control is needed</li><li>Old theory (&#39;80-&#39;90)</li><li>(<em>Cohen, Carter, Botvinick</em>)</li></ul></li><li><p><strong>Reward-Based Theories</strong></p><ul><li>Argue ACC has a more <em>active</em> role in <em>selecting actions</em></li><li>Based on a Bilological and Neurophysiological view</li><li>(<em>Holroyd, Coles, Rushworth</em>)</li><li>Based on humans and animals</li></ul></li></ul><p>&nbsp;</p><p><strong>Developments in the field of Attentional Control:</strong></p><figure><table><thead><tr><th>Period</th><th>Developments</th><th>Available Means</th></tr></thead><tbody><tr><td>80&#39;s</td><td><strong>box and arrow models</strong></td><td><em>didn&#39;t have any fancy techniques</em></td></tr><tr><td>early 90&#39;s</td><td><strong>computational models of the mind</strong></td><td><em>developing AI techniques</em></td></tr><tr><td>late 90&#39;s</td><td><strong>functional neuroimaging of ACC</strong></td><td><em>neuroimaging techniques</em></td></tr><tr><td>00&#39;s/10&#39;s</td><td><strong>challenges from other fields</strong></td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n168' class='md-header-anchor '></a>Box and Arrow Models (80&#39;s)</h2><p><em>Let&#39;s go back in time, to when the ACC wasn&#39;t discovered yet.</em></p><figure><table><thead><tr><th>&nbsp;</th><th>Stroop Task --- <em>John Stroop (1935)</em></th></tr></thead><tbody><tr><td><strong>Method:</strong> participants name the colour of a word. Some match and some don&#39;t.<br /><br /><strong>Result:</strong> non-matching words take longer to process.<br /><br /><strong>Conclusion:</strong> IF the word is father than the colour <br />AND the word interferes with the colour, but the colour not interfere with the word <br />THEN the word is automatic and the colour is controlled</td><td><span style="color:#ff0000">RED</span><br /><br /><span style="color:#ff00ff">GREEN</span><br /><br /><span style="color:#00ff00">BLUE</span></td></tr></tbody></table></figure><p>&nbsp;</p><p>The results of the <strong>Stroop Task</strong> make a distinction between <em>AUTOMATIC</em> and <em>CONTROLLED</em> processes.</p><p><em>This line of reasoning resulted in the following model:</em></p><figure><table><thead><tr><th>&nbsp;</th><th>Supervisory Attentional System (SAS) --- <em>Norman &amp; Shallice (1986)</em></th></tr></thead><tbody><tr><td>1.) <strong>Perceptual System</strong> processes information.<br /><br />2.) <strong>Range of Possible Actions</strong> we could take as a result<br /><br />3.) <strong>Automated Scheduling</strong> determines correct action based on simple selection process<br /><br />4.)  <strong>Supervisory Attentional System</strong> kicks in when more complicated processing is needed</td><td><img src='images/l2s13.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p><strong>Problems with this Model:</strong></p><ul><li>The SAS is basically just a black box (or homunculus) whose inner workings aren&#39;t explained at all</li><li>Assumes processes are either fully controlled or fully automatic</li><li>Doesn&#39;t explain when and how the SAS gets activated</li></ul><p>&nbsp;</p><h2><a name='header-n196' class='md-header-anchor '></a>Computational Models of the Mind (early 90&#39;s)</h2><h3><a name='header-n197' class='md-header-anchor '></a>Possible Inner Workings of the SAS</h3><p><em>People tried to prove the validity (or satisfactory) of the SAS by formalizing it using a connectionist model:</em></p><figure><table><thead><tr><th>&nbsp;</th><th>Early Connectionist Model for Stroop Task <br />--- <em>Cohen et. al. (1990)</em></th></tr></thead><tbody><tr><td><strong>Research Question:</strong> <em>&quot;Can we feed this model information in such a way that it performs similar to humans in the Stroop task?&quot;</em><br /><br /><strong>How it works when trained:</strong> the TASK DEMAND nodes pre-activate the hidden nodes to correspond to the desired task. Visual stimuli activate the INK COLOR and WORD nodes. The base value of the WORD nodes is higher to simulate faster processing for words.</td><td><img src='images/l2s16.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><figure><table><thead><tr><th>&nbsp;</th><th>Results of the Above Model</th></tr></thead><tbody><tr><td>The connectionist model does indeed produce data similar to that of the human Stroop task. Namely:<br /> - words are always processed faster than colours<br /> - colour doesn&#39;t impact word naming<br /> - words to influence colour naming<br /> - difference is due to interference, not facilitation <br />(i.e. one strengthening the other)</td><td><img src='images/l2s25.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p>&nbsp;</p><h3><a name='header-n214' class='md-header-anchor '></a>Are Processes All-Or-Nothing?</h3><p><em>Now that we have a model that explains Stroop task data, we can use it to determine of automatic vs. controlled processes are all-or-nothing or more gradual:</em></p><figure><table><thead><tr><th>&nbsp;</th><th>&quot;Automatic vs Controlled&quot; Experiment --- <em>Cohen et. al. (1990)</em></th></tr></thead><tbody><tr><td><strong>Method:</strong> participants has to associate a shape with a colour. Then performed the Stroop task with shapes instead of words.<br />(e.g. task=name associated colour, presented=red triangle, desired answer=green, distractor=red)<br /><br /><strong>Result:</strong> initially colour naming is much faster. After 5 days the reaction times are roughly equal. After 20 days the associated colour is more automatic<br /><br /><strong>Conclusion:</strong> control is something you can &quot;play with&quot;. Attentional processes aren&#39;t all-or-nothing, but can move on a spectrum between automatic and controlled</td><td><img src='images/l2s26.PNG' alt='' referrerPolicy='no-referrer' /><br /><br /><center>x-axis: &quot;control, conflict, congruent&quot;</center></td></tr></tbody></table></figure><p>&nbsp;</p><h3><a name='header-n224' class='md-header-anchor '></a>How the SAS could be activated</h3><p><em>Now we have a possible explanation for the inner workings of the SAS. But it still doesn&#39;t explain when control is needed.</em></p><figure><table><thead><tr><th>&nbsp;</th><th>Cognitive Control Model <br />--- <em>Botvinick et al. (2001)</em></th></tr></thead><tbody><tr><td>Idea: take the already existing connectionist model for the Stroop task and add another node that functions as a conflict monitor. This conflict monitor is the <strong>product of the two response nodes</strong>. The conflict monitor activates the TASK DEMAND nodes</td><td><img src='images/l2s30.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p><em>Now we have a model that embodies the basic properties of the ACC, but is this model indeed correct? If it is, then it should also embody the fact that people remain more aware for a short time after needing cognitive control (e.g. a hightened sense of awareness after someone jumps in front of your car).</em> </p><figure><table><thead><tr><th>Effects of Incongruency Ratio on Interference --- <em>Tzelgov et al. (1992)</em></th><th>Human Trial Data</th><th>Connectionist Data</th></tr></thead><tbody><tr><td>To figure this out, people experimented with the ratio of congruent vs incongruent trials (x-axis displays ratio of incongruent to congruent trials)<br /><br /><strong>Method:</strong> just the Stroop task with humans again, this time with varying ratios of incongruency.<br /><br /><strong>Result:</strong> high incongruency ratios result in lower interference. <strong>Similar results</strong> for the Cognitive Control Model. <br /><br /><strong>Conclusion:</strong> the Cognitive Control Model captures the presence prolonged activation of cognitive control in human cognition.</td><td><img src='images/l2s32.PNG' alt='' referrerPolicy='no-referrer' /></td><td><img src='images/l2s33.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n244' class='md-header-anchor '></a>Neuroimaging Studies (late 90&#39;s)</h2><p><em>In the 90&#39;s, people tried using neuroimaging to locate the modules of the Cognitive Control Model in the brain</em></p><h3><a name='header-n246' class='md-header-anchor '></a>Locating the Conflict Monitoring Module</h3><p>In the 90&#39;s, people attempted to find the &#39;conflict module&#39; in the brain, by making the following distinctions between subsequent stimuli:</p><p><strong>Method:</strong></p><ul><li><p>A <strong>Congruent</strong> stimulus followed by an <strong>Incongruent</strong> stimulus should result in a...</p><ul><li><span class='math-in-toc'>\Rightarrow</span> <strong>High Activation</strong> of the conflict module in the 2nd trial</li></ul></li><li><p>All other combinations of congruent and incongruent stimuli should result in a...</p><ul><li><span class='math-in-toc'>\Rightarrow</span> <strong>Low Activation</strong> of the conflict module in the 2nd trial</li></ul></li></ul><p>The <strong>important distinction</strong> here was that the conflict module should <em>not</em> be active for an incongruent stimulus when it follows from another incongruent stimulus, since at that point the cognitive control module should still be activated from the first stimulus.</p><figure><table><thead><tr><th>&nbsp;</th><th>Finding the Conflict Module --- <em>Carter et al. (2000)</em></th></tr></thead><tbody><tr><td><strong>Result:</strong> when running this experiment, only one brain region stands out: the ACC</td><td><img src='images/l2s35.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p>&nbsp;</p><h3><a name='header-n269' class='md-header-anchor '></a>Locating the Task Demand Module</h3><figure><table><thead><tr><th>Locating the Task Demand Module --- <em>MacDonald et al. (2000)</em></th><th>&nbsp;</th></tr></thead><tbody><tr><td><strong>Method:</strong> a Stroop Task where participants were asked to prepare for either WORDS or COLOURS. <br />In the case of WORDS, the Task Demand Module should be relatively silent, whereas for COLOURS, it should be active. <br />The ACC (which was just established to be the Conflict Monitoring Module) should be silent in both cases (this is because no stimuli are presented yet, only an indication of what to prepare for).<br />When a stimulus is presented (congruent vs. incongruent), the Task Demand Module shouldn&#39;t care very much, but the Conflict Module (ACC) should be ctive.<br /><br /><strong>Result:</strong> The ACC behaves as expected, and the brain region that fits the criteria for the Task Demand Module is the <strong>Dorsal Lateral Prefrontal Cortex</strong></td><td><img src='images/l2s37.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p>&nbsp;</p><figure><table><thead><tr><th>Resulting Link between Modules and Brain Regions</th><th>&nbsp;</th></tr></thead><tbody><tr><td><img src='images/l2s38.PNG' alt='' referrerPolicy='no-referrer' /></td><td><span style="color:var(--bg-color)">ooooooooooooooooooooooooooo</span></td></tr></tbody></table></figure><p>&nbsp;</p><h3><a name='header-n286' class='md-header-anchor '></a>Testing the Validity of the Cognitive Control Model using Neuroimaging</h3><p>&nbsp;</p><p>(...)</p><p>&nbsp;</p><figure><table><thead><tr><th>&nbsp;</th><th>Willed Action and Prefrontal Cortex in Man --- <em>(1991)</em></th></tr></thead><tbody><tr><td><strong>Method:</strong> scan brain activity via PET. Participants had to make <em>a</em> movement after a stimulus.<br /><br /><strong>Result:</strong> Activation in the ACC</td><td><img src='images/l2s3.PNG' alt='' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p>&nbsp;</p><figure><table><thead><tr><th>Anatomy of the ACC <br />--- <em>Rushworth et al. (2004)</em></th><th>Subdivision of Activation in the ACC<br />--- <em>Ridderinkhof et al. (2004)</em></th></tr></thead><tbody><tr><td><img src='images/l2s5.PNG' alt='' referrerPolicy='no-referrer' /></td><td><img src='images/l2s6.PNG' alt='' referrerPolicy='no-referrer' /></td></tr><tr><td>Sight of the medial wall (split between the hemispheres).<br/>Shows similar structures in mammals (indicates the ACC to be an acient structure)</td><td>No apparent distinction between parts of the ACC when performing certain types of tasks.</td></tr></tbody></table></figure><p>&nbsp;</p><h1><a name='header-n309' class='md-header-anchor '></a>3. Frontal Asymmetry of Motivational Control</h1><h1><a name='header-n310' class='md-header-anchor '></a>4. Visual Stability</h1><h1><a name='header-n311' class='md-header-anchor '></a>5. Motor Control</h1><h1><a name='header-n312' class='md-header-anchor '></a>6. Neocortical Consolidation</h1><h1><a name='header-n313' class='md-header-anchor '></a>7. Semantic Integration in Sentence Processing</h1><p>&nbsp;</p></div>
+</body>
+</html>
