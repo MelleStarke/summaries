@@ -92,7 +92,7 @@ Humans communicate via their 5 sensory channels. Using multiple channels *simult
 - We’ve had fundamental speech apparatus structures for 60.000 years
 - The shapes of our tongues, mouths and throats allows us to make many different sounds but also gives us too many teeth and an increased risk of choking
 - **Two theories** of evolution of language:
-  - Discontinuous**: language arose suddenly and spread quickly due to evolutionary advantages and passing the ability to offspring.
+  - **Discontinuous**: language arose suddenly and spread quickly due to evolutionary advantages and passing the ability to offspring.
   - **Continuous**: gradual co-evolution of language and other human capabilities.
 - **Theory** on why **communication** was beneficial for evolution:
   - Internal representation of the world proved to be a huge advantage in protecting the body.
@@ -221,7 +221,7 @@ Term: **Second Language Acquisition (SLA)**
 
 | Different Types of Memory |                                                              |
 | ------------------------- | ------------------------------------------------------------ |
-| ![](images/l2s3.PNG)      | <span style="color:var(--bg-color)">ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</span> |
+| ![](images/l2s3.PNG)      | <span style="color:var(--bg-color)">ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</span> |
 
 
 
@@ -416,6 +416,78 @@ the BOLD signal depends on the ratio of oxygen-rich to oxygen-poor blood.
 
 
 # 4. Printed Word Recognition
+
+## Reading Letters and Word Forms
+
+|               | _Auditory_                                    | Visual                                             |
+| ------------: | :-------------------------------------------- | -------------------------------------------------- |
+|   TIME COURSE | _Sequential<br />Short_                       | Parallel<br />Lasting                              |
+|    FORM<br /> | _Continuous<br />Coarticulation<br />Varying_ | Discrete<br />Contrast<br />Constant               |
+| CONTENT<br /> | _Intonation<br />Affect_                      | Diacritic Markers<br />Morphosyntactic Information |
+|       CONTROL | _External_                                    | Internal                                           |
+|        EFFECT | _Arousal_                                     | Visual Dominance                                   |
+
+[//]: # "AN: find subject in lecture audio"
+
+
+
+**Words** are **made up of:**
+
+- Letters
+- Syllables
+- Words
+- Morphemes
+
+
+
+**Visual Segmentation:** _splitting a written word up into smaller units in order to give it meaning. <br>e.g. belang-stellen-de / bel-angst-ellende._
+
+
+
+### Letter Representation
+
+|                      | Pandemonium Model --- _Selfridge (1959)_                     |
+| -------------------- | ------------------------------------------------------------ |
+| ![](images/l4s7.PNG) | Based on the idea of several layers of demons all fulfilling different tasks<br /><br />**Image Demon:** receives sensory input and splits it up into several features<br /><br />**Feature Demons:** receive features and indicate how prevalent those features are<br /><br />**Cognitive Demons:** shout when they get a specific combination of features<br /><br />**Decision Demon:** determines the loudest shout and the corresponding letter |
+
+This model is similar to the nervous system, in the sense that:
+
+- groups of neurons that code for perceptually significant stimuli can be see as feature demons.
+- Early on in the sensory pathway, feature detectors have simple properties and become more complex later on
+- _Hubel & Wiesel (1959)_ showed that cats have "edge detectors" in their visual system, and that edges occur very infrequently in noise (making them efficient in the perception of the environment)
+- Plus, of course, that they're basically convolutional neural networks
+
+
+
+### Word Recognition
+
+Two options for looking up words in the Mental Lexicon:
+
+- **One by One**
+  - _Foster's Autonomous Search Model_
+- **In Parallel**
+  - Lologen Model - _Morton_
+  - Connectionist Models:
+    - Interactive Activation (IA) - _McClelland & Rumelhart_ 
+    - PDP Model - _McClelland & Seidenberg (1989)_
+
+_Nowadays, we assume that word possibilities are processed in parallel._
+
+
+
+|      | Interactive Activation Model (IA) --- _McClelland & Rumelhart (1981)_ |
+| ---- | ------------------------------------------------------------ |
+|      |                                                              |
+
+
+
+
+
+## Models of Word Reading
+
+## Evidence from Priming
+
+## Words in Sentence Context
 
 
 
